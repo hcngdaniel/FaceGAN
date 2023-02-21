@@ -1,0 +1,18 @@
+{
+  "device": "cpu",
+  "data": {
+    "batch_size": 64,
+    "num_workers": 0
+  },
+  "model": {
+    "name": "model1",
+    "path": "saves/model1/exp1.pth"
+  },
+  "train": {
+    "start_epoch": 1,
+    "end_epoch": 100,
+    "lr": 1e-4,
+    "Lambda": 10,
+    "critic_iters": 5
+  }
+}
